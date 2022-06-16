@@ -79,7 +79,9 @@ function renderProducts() {
 function productTemplate(_product) {
   return `
       <div class="card mb-4">
-        <img class="card-img-top" src="${_product.image}" alt="...">
+        <img class="card-img-top" src="${
+          _product.image
+        }" alt="..." style ="height:350px;">
         <div class="position-absolute top-0 end-0 bg-warning mt-4 px-2 py-1 rounded-start">
           ${_product.sold} Sold
         </div>
